@@ -15,5 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         view.backgroundColor = .black
         view1.frame.origin.x = 100
+        view2.frame.origin.x = 100
     }
 }
