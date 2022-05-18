@@ -12,12 +12,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var view2: UIView!
     @IBOutlet weak var view3: UIView!
     
-    private lazy var titleLabel: UILabel = {
-        let label = UILabel()
-        return label
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        view1.bounds.origin.x = 123
+        view2.frame.origin.x = 100
+        view3.frame.origin.y = 50
     }
 }
