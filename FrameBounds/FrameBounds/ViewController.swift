@@ -13,8 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var view3: UIView!
     
     override func viewDidLoad() {
-        view1.bounds.origin.x = 100
-        view2.bounds.origin.x = 10
         view3.frame.origin.y = 100
     }
 }
