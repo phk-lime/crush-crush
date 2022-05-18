@@ -12,8 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var view2: UIView!
     
     override func viewDidLoad() {
-        view1.bounds.origin.x = 100
-        view2.bounds.origin.x = 10
+
 //        view1.clipsToBounds = true
     }
 }
