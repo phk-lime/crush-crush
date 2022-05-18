@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var view3: UIView!
     
     override func viewDidLoad() {
-        view3.frame.origin.y = 100
+        view2.frame.origin.x = 100
+        view3.frame.origin.y = 50
     }
 }
