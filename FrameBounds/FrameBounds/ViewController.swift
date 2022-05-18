@@ -14,5 +14,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         view.backgroundColor = .white
+        view1.frame.origin.x = 100
     }
 }
