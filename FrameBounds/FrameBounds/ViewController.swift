@@ -16,5 +16,6 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         view1.frame.origin.x = 100
         view2.frame.origin.x = 100
+        view3.frame.origin.x = 100
     }
 }
