@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var view3: UIView!
     
     override func viewDidLoad() {
-        view.backgroundColor = .black
+        view.backgroundColor = .white
         view1.frame.origin.x = 100
     }
 }
