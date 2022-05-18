@@ -18,5 +18,3 @@ class ViewController: UIViewController {
         view3.frame.origin.y = 100
     }
 }
-
-
